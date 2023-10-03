@@ -73,7 +73,7 @@ export default function Home() {
                   <h2 class="title-font font-medium text-3xl text-white">
                     74
                   </h2>
-                  <p class="leading-relaxed">Files</p>
+                  <p class="leading-relaxed">Audios</p>
                 </div>
               </div>
               <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
