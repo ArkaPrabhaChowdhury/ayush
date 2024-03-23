@@ -1,11 +1,13 @@
 import Sidebar from "./(components)/Sidebar";
 import Navbar from "./(components)/Navbar";
+import { GoogleAdSense } from "nextjs-google-adsense";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
       <Sidebar />
+      <GoogleAdSense publisherId="pub-7181129842581424" />
       <div class="p-4 sm:ml-64">
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-24 mx-auto">
@@ -70,9 +72,7 @@ export default function Home() {
                     <path d="M3 18v-6a9 9 0 0118 0v6"></path>
                     <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
                   </svg>
-                  <h2 class="title-font font-medium text-3xl text-white">
-                    74
-                  </h2>
+                  <h2 class="title-font font-medium text-3xl text-white">74</h2>
                   <p class="leading-relaxed">Audios</p>
                 </div>
               </div>
@@ -89,9 +89,7 @@ export default function Home() {
                   >
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                   </svg>
-                  <h2 class="title-font font-medium text-3xl text-white">
-                    46
-                  </h2>
+                  <h2 class="title-font font-medium text-3xl text-white">46</h2>
                   <p class="leading-relaxed">Places</p>
                 </div>
               </div>
